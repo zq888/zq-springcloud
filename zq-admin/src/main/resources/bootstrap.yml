@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: zq-admin
+  profiles:
+    active: test
+  cloud:
+    nacos:
+      config:
+        group: SPRING-CLOUD
+        server-addr: 39.97.252.104:8848
+        file-extension: yml
+        namespace: cac3cf03-ae7e-4910-b35a-53ac4a460b1d
